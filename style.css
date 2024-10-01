@@ -1,0 +1,69 @@
+@charset "utf-8";
+
+header h1 {
+    text-align: center;
+    margin: 50px 0;
+    font-size: 5rem;
+}
+
+main .items {
+    display: flex;
+    /** justify-content: flex-start; スタート揃え（左揃え） **/
+    /** justify-content: flex-end; エンド揃え（右揃え） **/
+    /** justify-content: center; センター揃え **/
+    /** justify-content: space-between; 均等（両端はくっつく） **/
+    justify-content: space-around; /** 均等（全体的に） **/
+
+    /** flex-direction: column; 縦に表示する **/
+    /** flex-direction: column-reverse; 縦に表示する（逆向き） **/
+    flex-direction: row; /** 横に表示する **/
+    flex-direction: row-reverse; /** 横に表示する（逆向き） **/
+
+    align-items: flex-start; /** スタート揃え **/
+    align-items: flex-end; /** エンド揃え **/
+    align-items: center; /** センター揃え **/
+    align-items: baseline; /** ベースライン揃え **/
+
+    flex-wrap: wrap; /** 折り返し（デフォルトではnowrap、reverseは下から上に折り返される） **/
+
+    gap: 30px; /** 余白を空けられる/指定できる **/
+}
+
+main .item {
+    width: 300px;
+    height: auto;
+}
+
+aside .items {
+    display: flex;
+    /** justify-content: flex-start; スタート揃え（左揃え） **/
+    /** justify-content: flex-end; エンド揃え（右揃え） **/
+    justify-content: center; /** センター揃え **/
+    /** justify-content: space-between; 均等（両端はくっつく） **/
+    /** justify-content: space-around; 均等（全体的に） **/
+
+    /** flex-direction: column; 縦に表示する **/
+    /** flex-direction: column-reverse; 縦に表示する（逆向き） **/
+    flex-direction: row; /** 横に表示する **/
+    /** flex-direction: row-reverse; 横に表示する（逆向き） **/
+
+    /** align-items: flex-start; スタート揃え **/
+    /** align-items: flex-end; エンド揃え **/
+    align-items: center; /** センター揃え **/
+    /** align-items: baseline; ベースライン揃え **/
+
+    flex-wrap: wrap; /** 折り返し（デフォルトではnowrap、reverseは下から上に折り返される） **/
+
+    gap: 130px; /** 余白を空けられる/指定できる **/
+
+    padding: 40px 0;
+}
+
+aside .item {
+    width: 300px;
+    height: auto;
+}
+
+aside .item01 {
+    
+}
